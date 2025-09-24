@@ -1,0 +1,47 @@
+Environment Variables
+Never commit this file! It contains secrets.
+.env
+
+Virtual Environment
+This is machine-specific and can be recreated from requirements.txt
+venv/
+.venv/
+env/
+.env/
+
+Python Cache & Compiled Files
+pycache/
+*.pyc
+*.pyo
+*.pyd
+
+IDE & Editor specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+OS-specific files
+macOS
+.DS_Store
+
+Windows
+Thumbs.db
+
+Celery / Redis
+These files are runtime-specific
+celerybeat-schedule
+celerybeat.pid
+dump.rdb
+
+Testing
+.pytest_cache/
+htmlcov/
+.coverage
+*.cover
+
+Build artifacts
+build/
+dist/
+*.egg-info/
+downloads/
