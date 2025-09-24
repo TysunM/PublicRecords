@@ -1,0 +1,20 @@
+fastapi
+uvicorn[standard]
+
+Database and ORM
+sqlalchemy
+psycopg2-binary
+
+Data Validation and Security
+pydantic
+passlib[bcrypt]
+python-jose[cryptography]
+python-multipart
+
+Asynchronous Task Queue
+celery
+redis
+
+Scraping Engine
+playwright
+beautifulsoup4
